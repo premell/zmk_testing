@@ -167,6 +167,15 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_LCTL)>;
         };
+
+        equal_plus: equal_plus {
+            compatible = "zmk,behavior-mod-morph";
+            label = "EQUAL_PLUS";
+            bindings = <&kp SV_EQUAL>, <&kp SV_PLUS>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
     };
 
     macros {
