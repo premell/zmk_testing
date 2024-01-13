@@ -330,7 +330,7 @@
             bindings = <
 &kp F2             &kp F3        &kp F4         &kp F5       &kp F6                                                                                                                                 &kp F7             &kp F8               &kp F9                &kp F10             &kp F11
 &kp F1             &kp NUMBER_1  &kp N2         &kp N3       &kp N4   &kp N5                                                                                                     &kp N6             &kp N7             &kp N8               &kp N9                &kp N0              &kp F12
-&kp SV_FSLH        &kp B         &kp L          &kp D        &kp W    &kp Z                                                                                                      &kp SV_A_RING      &kp SV_F           &kp O                &kp O                 &kp SV_O_UMLAUT     &equal_plus
+&slash_question    &kp B         &kp L          &kp D        &kp W    &kp Z                                                                                                      &kp SV_A_RING      &kp SV_F           &kp O                &kp O                 &kp SV_O_UMLAUT     &equal_plus
 &kp ESC            &kp N         &kp R          &kp T        &kp S    &kp G                                                                                                      &kp Y              &kp H              &kp A                &kp E                 &kp I               &comma_exclemation
 &appostroph_quote  &kp Q         &kp X          &kp M        &kp C    &kp V   &kp TAB             &kp DOWN          &kp UP          &kp LEFT_ARROW  &kp RIGHT       &kp ENTER    &dot_sentence_end  &kp P              &kp J                &kp K                 &kp SV_A_UMLAUT     &semi_comma
 &mo 3              &kp HOME      &kp PAGE_DOWN  &kp PAGE_UP  &kp END          &backspace_nav 2 0  &kp LEFT_CONTROL  &kp LEFT_WIN    &kp LEFT_ALT    &kp LEFT_SHIFT  &lt 1 SPACE                     &left_brace_croco  &left_paren_bracket  &right_paren_bracket  &right_brace_croco  &underscore_minus
@@ -339,12 +339,12 @@
 
         SYMBOL {
             bindings = <
-&none      &none      &none      &none           &none                                                                                   &none           &none               &none         &none         &none
-&none      &kp GRAVE  &kp LPAR   &kp RPAR        &kp SEMI    &kp COMMA                                                           &none   &none           &none               &none         &none         &none
-&kp EXCL   &kp LBRC   &kp APOS   &kp DQT         &kp RBRC    &kp QMARK                                                           &none   &kp LEFT_SHIFT  &kp LCTRL           &kp LEFT_ALT  &kp LEFT_WIN  &trans
-&kp POUND  &kp CARET  &kp EQUAL  &kp UNDERSCORE  &kp DOLLAR  &kp STAR                                                            &none   &kp BACKSPACE   &kp SPACE           &kp TAB       &kp ENTER     &trans
-&kp TILDE  &kp LT     &kp PIPE   &kp MINUS       &kp GT      &kp FSLH   &kp NUBS     &kp DOT    &kp STAR    &none  &none  &none  &trans  &kp DELETE      &kp LC(LEFT_SHIFT)  &none         &none         &trans
-&kp AT     &kp AMPS   &kp LBKT   &kp RBKT        &kp PLUS               &kp PERCENT  &kp COLON  &kp SEMI    &none  &none  &none          &trans          &trans              &trans        &trans        &trans
+&none               &none         &none                    &none                     &none                                                                                                               &none           &none               &none         &none         &none
+&none               &kp SV_GRAVE  &kp SV_LEFT_PARENTHESIS  &kp SV_RIGHT_PARENTHESIS  &kp SV_SEMICOLON  &kp SV_COMMA                                                                              &none   &none           &none               &none         &none         &none
+&kp SV_EXCLAMATION  &kp SV_LBRC   &kp SV_APOSTROPHE        &kp SV_DOUBLE_QUOTES      &kp SV_RBRC       &kp SV_QUESTION                                                                           &none   &kp LEFT_SHIFT  &kp LCTRL           &kp LEFT_ALT  &kp LEFT_WIN  &trans
+&kp SV_POUND        &kp SV_CARET  &kp SV_EQUAL             &kp SV_UNDERSCORE         &kp SV_DOLLAR     &kp SV_STAR                                                                               &none   &kp BACKSPACE   &kp SPACE           &kp TAB       &kp ENTER     &trans
+&kp SV_TILDE        &kp SV_LT     &kp SV_PIPE              &kp SV_MINUS              &kp SV_GT         &kp SV_SLASH     &kp SV_BACKSLASH  &kp SV_DOT    &kp SV_STAR         &none  &none  &none  &trans  &kp DELETE      &kp LC(LEFT_SHIFT)  &none         &none         &trans
+&kp SV_AT           &kp SV_AMPS   &kp SV_LBKT              &kp SV_RBKT               &kp SV_PLUS                        &kp SV_PERCENT    &kp SV_COLON  &kp SV_SEMICOLON    &none  &none  &none          &trans          &trans              &trans        &trans        &trans
             >;
         };
 
