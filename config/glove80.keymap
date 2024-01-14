@@ -361,12 +361,12 @@
 
         symbol_2 {
             bindings = <
-&kp  &kp  &kp  &kp  &kp                                            &kp                &kp                      &kp                       &kp                 &kp
-&kp  &kp  &kp  &kp  &kp  &kp                                  &kp  &kp                &kp                      &kp                       &kp                 &kp
-&kp  &kp  &kp  &kp  &kp  &kp                                  &kp  &kp SV_SEMICOLON   &kp SV_LEFT_PARENTHESIS  &kp SV_RIGHT_PARENTHESIS  &kp                 &kp
-&kp  &kp  &kp  &kp  &kp  &kp                                  &kp  &kp SV_LEFT_BRACE  &kp SV_UNDERSCORE        &kp SV_EQUAL              &kp SV_RIGHT_BRACE  &trans
-&kp  &kp  &kp  &kp  &kp  &kp  &kp  &kp  &kp    &kp  &kp  &kp  &kp  &kp                &kp                      &kp                       &kp                 &trans
-&kp  &kp  &kp  &kp  &kp       &kp  &kp  &kp    &kp  &kp  &kp       &kp                &kp                      &kp                       &kp                 &kp
+&kp  &kp                 &kp                      &kp                       &kp                                                           &kp                &kp                      &kp                       &kp                 &kp
+&kp  &kp                 &kp                      &kp                       &kp                 &kp                                  &kp  &kp                &kp                      &kp                       &kp                 &kp
+&kp  &kp                 &kp SV_LEFT_PARENTHESIS  &kp SV_RIGHT_PARENTHESIS  &kp SV_SEMICOLON    &kp                                  &kp  &kp SV_SEMICOLON   &kp SV_LEFT_PARENTHESIS  &kp SV_RIGHT_PARENTHESIS  &kp                 &kp
+&kp  &kp SV_LEFT_BRACE   &kp SV_EQUAL             &kp SV_UNDERSCORE         &kp SV_RIGHT_BRACE  &kp                                  &kp  &kp SV_LEFT_BRACE  &kp SV_UNDERSCORE        &kp SV_EQUAL              &kp SV_RIGHT_BRACE  &trans
+&kp  &kp SV_EXCLAMATION  &kp SV_SINGLE_QUOTE      &kp SV_DOUBLE_QUOTES      &kp SV_QUESTION     &kp  &kp  &kp  &kp    &kp  &kp  &kp  &kp  &kp                &kp                      &kp                       &kp                 &trans
+&kp  &kp                 &kp                      &kp                       &kp                      &kp  &kp  &kp    &kp  &kp  &kp       &kp                &kp                      &kp                       &kp                 &kp
             >;
         };
 
