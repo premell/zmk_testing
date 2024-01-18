@@ -403,7 +403,7 @@
             >;
         };
 
-        layer_5 {
+        symbol_3 {
             bindings = <
 &trans            &trans             &trans                   &trans                    &trans                                                                                                   &trans              &trans                &trans                &trans           &trans
 &trans            &trans             &none                    &none                     &trans               &trans                                                                   &trans     &trans              &trans                &trans                &trans           &trans
