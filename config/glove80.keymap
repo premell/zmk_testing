@@ -350,12 +350,12 @@
             // | MAGIC | HOME| END | LEFT | RIGHT|      | BSPC  | DEL   | LALT  | | RALT  | RET   | SPACE |      |  UP   | DOWN  |  [   |   ]   | PGDN |
 
             bindings = <
-&kp F2          &kp F3        &kp F4         &kp F5       &kp F6                                                                                                      &kp F7          &kp F8    &kp F9  &kp F10          &kp F11
-&kp F1          &kp NUMBER_1  &kp N2         &kp N3       &kp N4   &kp N5                                                                              &kp N6         &kp N7          &kp N8    &kp N9  &kp N0           &kp F12
-&kp ENTER       &kp B         &kp L          &kp D        &kp W    &kp Z                                                                               &kp SV_A_RING  &kp SV_F        &kp O     &kp U   &kp SV_O_UMLAUT  &kp SV_APOSTROPHE
-&kp LEFT_SHIFT  &kp N         &kp R          &kp T        &kp S    &kp G                                                                               &kp Y          &kp H           &kp A     &kp E   &kp I            &kp SV_COMMA
-&kp ESC         &kp Q         &kp X          &kp M        &kp C    &kp V   &none  &none          &none           &none         &none      &none        &kp TAB        &kp P           &kp J     &kp K   &kp SV_A_UMLAUT  &kp SV_DOT
-&mo 5           &kp HOME      &kp PAGE_DOWN  &kp PAGE_UP  &kp END          &mo 3  &kp BACKSPACE  &kp LEFT_WIN    &kp LEFT_ALT  &kp LCTRL  &lt 4 SPACE                 &kp LEFT_ARROW  &kp DOWN  &kp UP  &kp RIGHT        &none
+&kp F2          &kp F3        &kp F4         &kp F5       &kp F6                                                                                                   &kp F7          &kp F8    &kp F9  &kp F10          &kp F11
+&kp F1          &kp NUMBER_1  &kp N2         &kp N3       &kp N4   &kp N5                                                                           &kp N6         &kp N7          &kp N8    &kp N9  &kp N0           &kp F12
+&kp ENTER       &kp B         &kp L          &kp D        &kp W    &kp Z                                                                            &kp SV_A_RING  &kp SV_F        &kp O     &kp U   &kp SV_O_UMLAUT  &kp SV_APOSTROPHE
+&kp LEFT_SHIFT  &kp N         &kp R          &kp T        &kp S    &kp G                                                                            &kp Y          &kp H           &kp A     &kp E   &kp I            &kp SV_COMMA
+&kp ESC         &kp Q         &kp X          &kp M        &kp C    &kp V   &none  &none       &none           &none         &none      &none        &kp TAB        &kp P           &kp J     &kp K   &kp SV_A_UMLAUT  &kp SV_DOT
+&mo 5           &kp HOME      &kp PAGE_DOWN  &kp PAGE_UP  &kp END          &mo 3  &backspace  &kp LEFT_WIN    &kp LEFT_ALT  &kp LCTRL  &lt 4 SPACE                 &kp LEFT_ARROW  &kp DOWN  &kp UP  &kp RIGHT        &none
             >;
         };
 
