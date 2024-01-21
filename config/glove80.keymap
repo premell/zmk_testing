@@ -225,6 +225,15 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
         };
+
+        symbol_alt: symbol_alt {
+            compatible = "zmk,behavior-mod-morph";
+            label = "SYMBOL_ALT";
+            bindings = <&mo 3>, <&kp LEFT_ALT>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
     };
 
     macros {
