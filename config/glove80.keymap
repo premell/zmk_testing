@@ -229,7 +229,7 @@
         symbol_alt: symbol_alt {
             compatible = "zmk,behavior-mod-morph";
             label = "SYMBOL_ALT";
-            bindings = <&mo 3>, <&kp LEFT_ALT>;
+            bindings = <&mo 1>, <&kp LEFT_ALT>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
@@ -364,29 +364,7 @@
 &kp ENTER       &kp B         &kp L          &kp D        &kp W    &kp Z                                                                                  &kp SV_A_RING  &kp SV_F        &kp O     &kp U   &kp SV_O_UMLAUT  &kp SV_APOSTROPHE
 &kp LEFT_SHIFT  &kp N         &kp R          &kp T        &kp S    &kp G                                                                                  &kp Y          &kp H           &kp A     &kp E   &kp I            &kp SV_COMMA
 &kp ESC         &kp Q         &kp X          &kp M        &kp C    &kp V   &none        &none       &none           &none         &none      &none        &kp TAB        &kp P           &kp J     &kp K   &kp SV_A_UMLAUT  &kp SV_DOT
-&mo 5           &kp HOME      &kp PAGE_DOWN  &kp PAGE_UP  &kp END          &symbol_alt  &backspace  &kp LEFT_WIN    &kp LEFT_ALT  &kp LCTRL  &lt 4 SPACE                 &kp LEFT_ARROW  &kp DOWN  &kp UP  &kp RIGHT        &none
-            >;
-        };
-
-        SYMBOL {
-            bindings = <
-&none               &none         &none                    &none                     &none                                                                                                               &none           &none               &none         &none         &none
-&none               &kp SV_GRAVE  &kp SV_LEFT_PARENTHESIS  &kp SV_RIGHT_PARENTHESIS  &kp SV_SEMICOLON  &kp SV_COMMA                                                                              &none   &none           &none               &none         &none         &none
-&kp SV_EXCLAMATION  &kp SV_LBRC   &kp SV_APOSTROPHE        &kp SV_DOUBLE_QUOTES      &kp SV_RBRC       &kp SV_QUESTION                                                                           &none   &kp LEFT_SHIFT  &kp LCTRL           &kp LEFT_ALT  &kp LEFT_WIN  &trans
-&kp SV_POUND        &kp SV_CARET  &kp SV_EQUAL             &kp SV_UNDERSCORE         &kp SV_DOLLAR     &kp SV_STAR                                                                               &none   &kp BACKSPACE   &kp SPACE           &kp TAB       &kp ENTER     &trans
-&kp SV_TILDE        &kp SV_LT     &kp SV_PIPE              &kp SV_MINUS              &kp SV_GT         &kp SV_SLASH     &kp SV_BACKSLASH  &kp SV_DOT    &kp SV_STAR         &none  &none  &none  &trans  &kp DELETE      &kp LC(LEFT_SHIFT)  &none         &none         &trans
-&kp SV_AT           &kp SV_AMPS   &kp SV_LBKT              &kp SV_RBKT               &kp SV_PLUS                        &kp SV_PERCENT    &kp SV_COLON  &kp SV_SEMICOLON    &none  &none  &none          &trans          &trans              &trans        &trans        &trans
-            >;
-        };
-
-        symbol_2 {
-            bindings = <
-&kp SV_AT           &none              &none                    &none                     &none                                                                                       &none          &none      &none  &none  &none
-&kp SV_PIPE         &kp SV_AMPERSAND   &kp SV_LEFT_BRACKET      &kp SV_RIGHT_BRACKET      &kp SV_BACKSLASH    &none                                                            &none  &none          &none      &none  &none  &none
-&kp SV_EXCLAMATION  &kp SV_COLON       &kp SV_LEFT_PARENTHESIS  &kp SV_RIGHT_PARENTHESIS  &kp SV_SEMICOLON    &kp SV_QUESTION                                                  &none  &none          &none      &none  &none  &none
-&kp SV_POUND        &kp SV_LEFT_BRACE  &kp SV_EQUAL             &kp SV_UNDERSCORE         &kp SV_RIGHT_BRACE  &kp SV_STAR                                                      &none  &kp BACKSPACE  &kp ENTER  &none  &none  &trans
-&kp SV_TILDE        &kp SV_CARET       &kp SV_SINGLE_QUOTE      &kp SV_DOUBLE_QUOTES      &kp SV_DOLLAR       &kp SV_SLASH     &none  &none  &none    &none  &none  &kp ENTER  &none  &none          &none      &none  &none  &trans
-&kp SV_GRAVE        &kp SV_LT          &kp SV_PLUS              &kp SV_MINUS              &kp SV_GT                            &none  &none  &none    &none  &none  &kp SPACE         &none          &none      &none  &none  &none
+&mo 3           &kp HOME      &kp PAGE_DOWN  &kp PAGE_UP  &kp END          &symbol_alt  &backspace  &kp LEFT_WIN    &kp LEFT_ALT  &kp LCTRL  &lt 2 SPACE                 &kp LEFT_ARROW  &kp DOWN  &kp UP  &kp RIGHT        &none
             >;
         };
 
