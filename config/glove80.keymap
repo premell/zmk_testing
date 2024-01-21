@@ -392,12 +392,12 @@
 
         symbol_3 {
             bindings = <
-&trans            &trans             &trans                   &trans                    &trans                                                                                                   &trans              &trans                &trans                &trans           &trans
-&kp SV_AT_SIGN    &trans             &none                    &none                     &trans               &trans                                                                   &trans     &trans              &trans                &trans                &trans           &trans
-&kp SV_TILDE      &kp SV_COLON       &kp SV_LEFT_PARENTHESIS  &kp SV_RIGHT_PARENTHESIS  &kp SV_SEMICOLON     &none                                                                    &trans     &kp SV_EXCLAMATION  &kp SV_LEFT_BRACKET   &kp SV_RIGHT_BRACKET  &kp SV_QUESTION  &kp SV_SQT
-&kp LEFT_ALT      &kp SV_LEFT_BRACE  &kp SV_EQUAL             &kp SV_UNDER              &kp SV_RIGHT_BRACE   &kp SV_PLUS                                                              &kp ENTER  &kp SV_CARET        &kp SV_DOUBLE_QUOTES  &kp SV_STAR           &kp SV_DOLLAR    &kp SV_COMMA
-&kp SV_BACKSLASH  &kp SV_LESS_THAN   &kp SV_MINUS             &kp SV_SLASH              &kp SV_GREATER_THAN  &trans       &trans  &trans  &trans    &trans  &trans         &trans     &trans     &kp SV_PIPE         &kp SV_AMPERSAND      &kp SV_PERCENT        &kp SV_HASH      &kp SV_DOT
-&trans            &trans             &trans                   &trans                    &trans                            &trans  &trans  &trans    &trans  &kp BACKSPACE  &kp SPACE             &trans              &trans                &trans                &trans           &trans
+&trans            &trans             &trans                   &trans                    &trans                                                                                                    &trans              &trans                &trans                &trans           &trans
+&kp SV_AT_SIGN    &trans             &none                    &none                     &trans               &trans                                                                    &trans     &trans              &trans                &trans                &trans           &trans
+&kp SV_TILDE      &kp SV_COLON       &kp SV_LEFT_PARENTHESIS  &kp SV_RIGHT_PARENTHESIS  &kp SV_SEMICOLON     &none                                                                     &trans     &kp SV_CARET        &kp SV_LEFT_BRACKET   &kp SV_RIGHT_BRACKET  &kp SV_DOLLAR    &kp SV_SQT
+&kp LEFT_ALT      &kp SV_LEFT_BRACE  &kp SV_EQUAL             &kp SV_UNDER              &kp SV_RIGHT_BRACE   &kp SV_SLASH                                                              &kp ENTER  &kp SV_EXCLAMATION  &kp SV_DOUBLE_QUOTES  &kp SV_STAR           &kp SV_QUESTION  &kp SV_COMMA
+&kp SV_BACKSLASH  &kp SV_LESS_THAN   &kp SV_MINUS             &kp SV_PLUS               &kp SV_GREATER_THAN  &trans        &trans  &trans  &trans    &trans  &trans         &trans     &trans     &kp SV_PIPE         &kp SV_AMPERSAND      &kp SV_PERCENT        &kp SV_HASH      &kp SV_DOT
+&trans            &trans             &trans                   &trans                    &trans                             &trans  &trans  &trans    &trans  &kp BACKSPACE  &kp SPACE             &trans              &trans                &trans                &trans           &trans
             >;
         };
 
